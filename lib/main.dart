@@ -42,7 +42,7 @@ class MyHomePage extends StatelessWidget {
               padding: EdgeInsets.all(30.0),
               child: Card(
                 child: ListTile(
-                  leading: Image.network(""),
+                  leading: Image.network("https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bmlrZSUyMHNob2V8ZW58MHx8MHx8&w=1000&q=80"),
                   title: Text("Brand New Shoe", maxLines: 1, overflow: TextOverflow.ellipsis),
                   subtitle: Text("SH-231", maxLines: 1, overflow: TextOverflow.ellipsis),
                   trailing: Icon(Icons.delete_forever_rounded),
@@ -52,7 +52,7 @@ class MyHomePage extends StatelessWidget {
           }),
       floatingActionButton: FloatingActionButton.extended(
         label: Text('New Product'),
-        icon: Icon(Icons.add),
+        icon: Icon(Icons.shopping_bag_rounded),
         onPressed: () => temp(),
       ),
     );

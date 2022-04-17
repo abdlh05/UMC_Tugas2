@@ -42,7 +42,7 @@ class MyHomePage extends StatelessWidget {
               padding: EdgeInsets.all(10.0),
               child: Card(
                 shape: BeveledRectangleBorder(
-                  borderRadius: BorderRadius.circular(10.0),
+                  borderRadius: BorderRadius.circular(5.0),
                 ),
                 color: Colors.blueGrey[50],
                 child: Padding(

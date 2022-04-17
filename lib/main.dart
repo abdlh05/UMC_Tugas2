@@ -46,7 +46,7 @@ class MyHomePage extends StatelessWidget {
                 ),
                 color: Colors.blueGrey[50],
                 child: Padding(
-                  padding: EdgeInsets.only(top: 8.0, bottom: 8.0),
+                  padding: EdgeInsets.only(top: 2.0, bottom: 2.0),
                   child: ListTile(
                     leading: ClipRRect(
                       borderRadius: BorderRadius.circular(5.0),

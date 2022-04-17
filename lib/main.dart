@@ -51,7 +51,7 @@ class MyHomePage extends StatelessWidget {
                     leading: ClipRRect(
                       borderRadius: BorderRadius.circular(40), // Image border
                       child: SizedBox.fromSize(
-                        size: Size.fromRadius(48), // Image radius
+                        size: Size.fromRadius(5), // Image radius
                         child: Image.network("https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bmlrZSUyMHNob2V8ZW58MHx8MHx8&w=1000&q=80"),
                       ),
                     ),

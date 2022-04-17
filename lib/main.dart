@@ -54,7 +54,7 @@ class MyHomePage extends StatelessWidget {
                     ),
                     title: Text("Brand New Shoes", maxLines: 1, overflow: TextOverflow.ellipsis),
                     subtitle: Text("SH-231", maxLines: 1, overflow: TextOverflow.ellipsis),
-                    trailing: Container(Align:Alignment.topRight,child: Icon(Icons.delete_forever_rounded))),
+                    trailing: Container(child: Align(alignment: Alignment.topRight, child: Icon(Icons.delete_forever_rounded))),
                   ),
                 ),
               ),

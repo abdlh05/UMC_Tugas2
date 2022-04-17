@@ -39,7 +39,7 @@ class MyHomePage extends StatelessWidget {
           itemCount: 3,
           itemBuilder: (context, index) {
             return Padding(
-              padding: EdgeInsets.all(10.0),
+              padding: EdgeInsets.only(top: 10.0),
               child: Card(
                 shape: BeveledRectangleBorder(
                   borderRadius: BorderRadius.circular(5.0),

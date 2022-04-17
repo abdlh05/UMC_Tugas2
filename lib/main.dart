@@ -48,7 +48,10 @@ class MyHomePage extends StatelessWidget {
                 child: Padding(
                   padding: EdgeInsets.only(top: 8.0, bottom: 8.0),
                   child: ListTile(
-                    leading: Image.network("https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bmlrZSUyMHNob2V8ZW58MHx8MHx8&w=1000&q=80"),
+                    leading: ClipRRect(
+                      borderRadius: BorderRadius.circular(30.0),
+                      child: Image.network("https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bmlrZSUyMHNob2V8ZW58MHx8MHx8&w=1000&q=80"),
+                    ),
                     title: Text("Brand New Shoe", maxLines: 1, overflow: TextOverflow.ellipsis),
                     subtitle: Text("SH-231", maxLines: 1, overflow: TextOverflow.ellipsis),
                     trailing: Icon(Icons.delete_forever_rounded),

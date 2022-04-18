@@ -34,7 +34,7 @@ class MyHomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: Text('AppBar'),
+        title: Text(title),
         leading: IconButton(
           onPressed: () {},
           icon: Icon(Icons.shopping_bag_outlined),

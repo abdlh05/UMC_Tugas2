@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
       title: 'Products',
       // Application theme data, you can set the colors for the application as
       // you want
-      theme: ThemeData(primarySwatch: Colors.blue, appBarTheme: AppBarTheme(color: Colors.transparent)),
+      theme: ThemeData(primarySwatch: Colors.blue, appBarTheme: AppBarTheme(color: Colors.white)),
       // A widget which will be started on application startup
       home: MyHomePage(title: 'Products'),
     );
@@ -35,7 +35,7 @@ class MyHomePage extends StatelessWidget {
         title: Text(title, style: TextStyle(color: Colors.blue)),
         leading: IconButton(
           onPressed: () {},
-          icon: Icon(Icons.shopping_bag_outlined),
+          icon: Icon(Icons.shopping_bag_outlined, color: Colors.blue),
         ),
       ),
       body: ListView.builder(

@@ -63,8 +63,8 @@ class MyHomePage extends StatelessWidget {
                     padding: EdgeInsets.only(
                       right: 30.0,
                     ),
-                    width: 5.0,
-                    height: 5.0,
+                    width: 10.0,
+                    height: 10.0,
                     decoration: BoxDecoration(
                       color: Colors.blue,
                       border: Border.all(),

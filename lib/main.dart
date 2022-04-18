@@ -48,7 +48,7 @@ class MyHomePage extends StatelessWidget {
               padding: EdgeInsets.all(5.0),
               child: Card(
                 shape: BeveledRectangleBorder(
-                  borderRadius: BorderRadius.circular(5.0),
+                  borderRadius: BorderRadius.circular(2.0),
                 ),
                 color: Colors.blueGrey[50],
                 child: Column(children: <Widget>[

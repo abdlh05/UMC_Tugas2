@@ -64,7 +64,7 @@ class MyHomePage extends StatelessWidget {
                       right: 30.0,
                     ),
                     width: double.infinity,
-                    height: 20.0,
+                    height: 5.0,
                     decoration: BoxDecoration(
                       color: Colors.blue,
                       border: Border.all(),

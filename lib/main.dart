@@ -45,9 +45,7 @@ class MyHomePage extends StatelessWidget {
                   borderRadius: BorderRadius.circular(5.0),
                 ),
                 color: Colors.blueGrey[50],
-                child: Column(
-                  : EdgeInsets.only(top: 2.0, bottom: 2.0),padding
-                  children: <Widget>[ 
+                child: Column(children: <Widget>[
                   ListTile(
                     leading: ClipRRect(
                       borderRadius: BorderRadius.circular(5.0),
@@ -55,13 +53,12 @@ class MyHomePage extends StatelessWidget {
                     ),
                     title: Text("Brand New Shoes", maxLines: 1, overflow: TextOverflow.ellipsis),
                     subtitle: Text("SH-231", maxLines: 1, overflow: TextOverflow.ellipsis),
-                    trailing: Icon(Icons.delete_forever_rounded,),isThreeLine: true,
-                    
+                    trailing: Icon(
+                      Icons.delete_forever_rounded,
+                    ),
+                    isThreeLine: true,
                   ),
-
-                  ]
-                  
-                ),
+                ]),
               ),
             );
           }),

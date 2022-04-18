@@ -59,21 +59,6 @@ class MyHomePage extends StatelessWidget {
                     ),
                     isThreeLine: true,
                   ),
-                  Container(
-                    padding: EdgeInsets.only(
-                      right: 30.0,
-                    ),
-                    width: 50.0,
-                    height: 50.0,
-                    decoration: BoxDecoration(
-                      color: Colors.blue,
-                      border: Border.all(),
-                    ),
-                    child: Align(
-                      alignment: Alignment.topRight,
-                      child: Text('halo', style: TextStyle(fontSize: 10, color: Colors.white)),
-                    ),
-                  ),
                 ]),
               ),
             );

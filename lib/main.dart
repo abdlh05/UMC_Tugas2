@@ -22,6 +22,7 @@ class MyApp extends StatelessWidget {
 
 class MyHomePage extends StatelessWidget {
   final String title;
+
   const MyHomePage({Key? key, required this.title}) : super(key: key);
 
   void temp() {
@@ -57,6 +58,21 @@ class MyHomePage extends StatelessWidget {
                       Icons.delete_forever_rounded,
                     ),
                     isThreeLine: true,
+                  ),
+                  Container(
+                    padding: EdgeInsets.only(
+                      right: 30.0,
+                    ),
+                    width: double.infinity,
+                    height: 20.0,
+                    decoration: BoxDecoration(
+                      color: Colors.blue,
+                      border: Border.all(),
+                    ),
+                    child: Align(
+                      alignment: Alignment.topRight,
+                      child: Text('halo', style: TextStyle(fontSize: 30, color: Colors.white)),
+                    ),
                   ),
                 ]),
               ),

@@ -71,7 +71,7 @@ class MyHomePage extends StatelessWidget {
                     ),
                     child: Align(
                       alignment: Alignment.topRight,
-                      child: Text('halo', style: TextStyle(fontSize: 30, color: Colors.white)),
+                      child: Text('halo', style: TextStyle(fontSize: 10, color: Colors.white)),
                     ),
                   ),
                 ]),

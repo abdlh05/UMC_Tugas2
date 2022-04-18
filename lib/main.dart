@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
       title: 'Products',
       // Application theme data, you can set the colors for the application as
       // you want
-      theme: ThemeData(primarySwatch: Colors.blue, appBarTheme: AppBarTheme(color: Colors.white)),
+      theme: ThemeData(primarySwatch: Colors.blue, appBarTheme: AppBarTheme(color: Colors.transparent)),
       // A widget which will be started on application startup
       home: MyHomePage(title: 'Products'),
     );

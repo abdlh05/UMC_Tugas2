@@ -8,7 +8,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       // Application name
-      title: 'Flutter Hello World',
+      title: 'Products',
       // Application theme data, you can set the colors for the application as
       // you want
       theme: ThemeData(
@@ -33,8 +33,12 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        // The title text which will be shown on the action bar
-        title: Text(title),
+        centerTitle: true,
+        title: Text('AppBar'),
+        leading: IconButton(
+          onPressed: () {},
+          icon: Icon(Icons.shopping_bag_outlined),
+        ),
       ),
       body: ListView.builder(
           itemCount: 3,

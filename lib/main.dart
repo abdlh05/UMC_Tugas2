@@ -67,12 +67,12 @@ class MyHomePage extends StatelessWidget {
                       child: Text("NK-231", style: TextStyle(color: Colors.grey, fontSize: 10.0)),
                     )
                   ]),
-                  subtitle: IntrinsicWidth(
-                      child: Container(
-                          decoration: BoxDecoration(
-                            color: Colors.blue,
-                          ),
-                          child: Align(alignment: Alignment.center, child: Text("Stock 1")))),
+                  subtitle: Card(
+                      color: Colors.blue,
+                      shape: BeveledRectangleBorder(
+                        borderRadius: BorderRadius.circular(50.0),
+                      ),
+                      child: Text("Stock 1")),
                   trailing: Icon(
                     Icons.delete_forever_rounded,
                   ),

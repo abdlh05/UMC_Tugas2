@@ -58,7 +58,7 @@ class MyHomePage extends StatelessWidget {
                           child: Align(
                             alignment: Alignment.center,
                             heightFactor: 0.5,
-                            child: Image.network(""),
+                            child: Image.network("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfFbDNz0Gz4-a9ED4xXg0cWbHFmOBtdHvTtA&usqp=CAU"),
                           ),
                         )),
                     title: Column(children: [

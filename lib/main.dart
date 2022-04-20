@@ -67,12 +67,21 @@ class MyHomePage extends StatelessWidget {
                       child: Text("NK-231", style: TextStyle(color: Colors.grey, fontSize: 10.0)),
                     )
                   ]),
-                  subtitle: Card(
-                      color: Colors.blue,
-                      shape: BeveledRectangleBorder(
-                        borderRadius: BorderRadius.circular(5.0),
-                      ),
-                      child: Text("Stock 1")),
+                  subtitle: Container(
+                    constraints: BoxConstraints.tightFor(),
+                    margin: const EdgeInsets.only(top: 10),
+                    decoration: BoxDecoration(
+                        color: Colors.blue,
+                        border: Border.all(
+                          color: Colors.transparent,
+                          width: 0,
+                        ),
+                        borderRadius: BorderRadius.all(Radius.circular(50))),
+                    child: Align(
+                      alignment: Alignment.center,
+                      child: Text('Hello, Flutter!', style: TextStyle(fontSize: 16, color: Colors.white)),
+                    ),
+                  ),
                   trailing: Icon(
                     Icons.delete_forever_rounded,
                   ),

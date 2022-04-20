@@ -18,49 +18,6 @@ class MyApp extends StatelessWidget {
   }
 }
 
-class CustomListItem extends StatelessWidget {
-  const CustomListItem({
-    Key? key,
-    required this.thumbnail,
-    required this.title,
-    required this.user,
-    required this.stock,
-  }) : super(key: key);
-
-  final Widget thumbnail;
-  final String title;
-  final String user;
-  final Widget stock;
-
-  @override
-  Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 5.0),
-      child: Row(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: <Widget>[
-          Expanded(
-            flex: 2,
-            child: thumbnail,
-          ),
-          Expanded(
-            flex: 3,
-            child: _ProductList(
-              title: title,
-              user: user,
-              stock: stock,
-            ),
-          ),
-          const Icon(
-            Icons.more_vert,
-            size: 16.0,
-          ),
-        ],
-      ),
-    );
-  }
-}
-
 class MyHomePage extends StatelessWidget {
   final String title;
 

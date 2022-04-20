@@ -61,7 +61,10 @@ class MyHomePage extends StatelessWidget {
                         alignment: Alignment.topLeft,
                         child: Column(children: [
                           Text("Brand New Shoes", maxLines: 1, overflow: TextOverflow.ellipsis),
-                          Text("SH-231"),
+                          Align(
+                            alignment: Alignment.topLeft,
+                            child: Text("SH-231"),
+                          )
                         ])),
                     subtitle: Container(),
                     trailing: Icon(

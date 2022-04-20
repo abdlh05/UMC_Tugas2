@@ -55,7 +55,7 @@ class MyHomePage extends StatelessWidget {
                       borderRadius: BorderRadius.circular(10.0),
                       child: Image.network(
                         "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bmlrZSUyMHNob2V8ZW58MHx8MHx8&w=1000&q=80",
-                        fit: BoxFit.fill,
+                        fit: BoxFit.cover,
                       ),
                     ),
                     title: Column(children: [

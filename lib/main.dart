@@ -67,7 +67,7 @@ class MyHomePage extends StatelessWidget {
                       child: Text("NK-231", style: TextStyle(color: Colors.grey, fontSize: 10.0)),
                     )
                   ]),
-                  subtitle: Container(color: Colors.blue),
+                  subtitle: Container(),
                   trailing: Icon(
                     Icons.delete_forever_rounded,
                   ),

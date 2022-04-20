@@ -43,7 +43,7 @@ class MyHomePage extends StatelessWidget {
           itemCount: 3,
           itemBuilder: (context, index) {
             return Card(
-              margin: EdgeInsets.only(top: 20),
+              margin: EdgeInsets.only(top: 15),
               shape: BeveledRectangleBorder(
                 borderRadius: BorderRadius.circular(5.0),
               ),

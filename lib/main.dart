@@ -69,8 +69,9 @@ class MyHomePage extends StatelessWidget {
                   ]),
                   subtitle: Container(
                       decoration: BoxDecoration(
-                    color: Colors.blue,
-                  )),
+                        color: Colors.blue,
+                      ),
+                      child: Align(alignment: Alignment.center, child: Text("Stock 1"))),
                   trailing: Icon(
                     Icons.delete_forever_rounded,
                   ),

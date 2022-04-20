@@ -64,7 +64,7 @@ class MyHomePage extends StatelessWidget {
                       ),
                       Align(
                         alignment: Alignment.topLeft,
-                        child: Text("SH-231"),
+                        child: Text("SH-231", style: TextStyle(color: Colors.grey[50], fontSize: 10.0)),
                       )
                     ]),
                     subtitle: Container(),

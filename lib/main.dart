@@ -90,6 +90,7 @@ class MyHomePage extends StatelessWidget {
             );
           }),
       floatingActionButton: FloatingActionButton.extended(
+        backgroundColor: Colors.blue,
         label: Text('New Product'),
         icon: Icon(Icons.shopping_bag_rounded),
         onPressed: () => temp(),

@@ -39,7 +39,7 @@ class MyHomePage extends StatelessWidget {
         ),
       ),
       body: ListView.builder(
-          padding: EdgeInsets.only(top: 30.0, right: 8.0, left: 8.0),
+          margin: EdgeInsets.only(top: 30.0, right: 8.0, left: 8.0),
           itemCount: 3,
           itemBuilder: (context, index) {
             return Card(

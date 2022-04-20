@@ -68,21 +68,23 @@ class MyHomePage extends StatelessWidget {
                     )
                   ]),
                   subtitle: Container(
-                    margin: const EdgeInsets.only(top: 10),
-                    decoration: BoxDecoration(
-                        color: Colors.blue,
-                        border: Border.all(
-                          color: Colors.transparent,
-                          width: 0,
-                        ),
-                        borderRadius: BorderRadius.all(Radius.circular(50))),
-                    child: new Row(
-    mainAxisSize: MainAxisSize.min,
-    children: [child: new Row(
-    mainAxisSize: MainAxisSize.min,
-    children: [...],
-  ),],
-                  )),
+                      margin: const EdgeInsets.only(top: 10),
+                      decoration: BoxDecoration(
+                          color: Colors.blue,
+                          border: Border.all(
+                            color: Colors.transparent,
+                            width: 0,
+                          ),
+                          borderRadius: BorderRadius.all(Radius.circular(50))),
+                      child: new Row(
+                        mainAxisSize: MainAxisSize.min,
+                        children: [
+                          Align(
+                            alignment: Alignment.center,
+                            child: Text('Hello, Flutter!', style: TextStyle(fontSize: 16, color: Colors.white)),
+                          ),
+                        ],
+                      )),
                   trailing: Icon(
                     Icons.delete_forever_rounded,
                   ),

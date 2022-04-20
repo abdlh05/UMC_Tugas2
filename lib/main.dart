@@ -68,7 +68,7 @@ class MyHomePage extends StatelessWidget {
                       )
                     ]),
                     subtitle: Container(
-                      padding: EdgeInsets.only(top: 20),
+                      margin: EdgeInsets.only(top: 20),
                       decoration: BoxDecoration(
                           color: Colors.blue,
                           border: Border.all(

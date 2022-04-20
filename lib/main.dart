@@ -67,8 +67,7 @@ class MyHomePage extends StatelessWidget {
                         child: Text("NK-231", style: TextStyle(color: Colors.grey, fontSize: 10.0)),
                       )
                     ]),
-                    subtitle: IntrinsicWidth(
-                        child: Container(
+                    subtitle: Container(
                       padding: EdgeInsets.only(top: 20),
                       decoration: BoxDecoration(
                           color: Colors.blue,
@@ -81,7 +80,7 @@ class MyHomePage extends StatelessWidget {
                         alignment: Alignment.center,
                         child: Text('Hello, Flutter!', style: TextStyle(fontSize: 16, color: Colors.white)),
                       ),
-                    )),
+                    ),
                     trailing: Icon(
                       Icons.delete_forever_rounded,
                     ),

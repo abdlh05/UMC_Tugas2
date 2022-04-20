@@ -75,7 +75,7 @@ class MyHomePage extends StatelessWidget {
                             color: Colors.transparent,
                             width: 0,
                           ),
-                          borderRadius: BorderRadius.all(Radius.circular(20))),
+                          borderRadius: BorderRadius.all(Radius.circular(50))),
                       child: Align(
                         alignment: Alignment.center,
                         child: Text('Hello, Flutter!', style: TextStyle(fontSize: 30, color: Colors.white)),

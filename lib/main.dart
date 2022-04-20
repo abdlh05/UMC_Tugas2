@@ -78,7 +78,7 @@ class MyHomePage extends StatelessWidget {
                       child: Text("NK-231", style: TextStyle(color: Colors.grey, fontSize: 10.0)),
                     )
                   ]),
-                  subtitle: Text('Stock: ' + '@{stock[index]}', style: TextStyle(fontSize: 16, color: Colors.white)),
+                  subtitle: Text('Stock: ' + stock.toString()[index], style: TextStyle(fontSize: 16, color: Colors.white)),
                   trailing: Icon(
                     Icons.delete_forever_rounded,
                   ),

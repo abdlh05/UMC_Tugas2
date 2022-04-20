@@ -62,7 +62,7 @@ class MyHomePage extends StatelessWidget {
                         child: Column(children: [
                           Align(
                             alignment: Alignment.topLeft,
-                          Text("Brand New Shoes", maxLines: 1, overflow: TextOverflow.ellipsis),
+                            child: Text("Brand New Shoes", maxLines: 1, overflow: TextOverflow.ellipsis),
                           ),
                           Align(
                             alignment: Alignment.topLeft,

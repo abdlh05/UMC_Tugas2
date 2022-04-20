@@ -70,7 +70,10 @@ class MyHomePage extends StatelessWidget {
                     subtitle: Container(
                       decoration: BoxDecoration(
                         color: Colors.blue,
-                        border: Border.all(),
+                        border: Border.all(
+                          color: Colors.transparent,
+                          width: 0,
+                        ),
                       ),
                       child: Align(
                         alignment: Alignment.topRight,

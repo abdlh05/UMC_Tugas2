@@ -68,10 +68,15 @@ class MyHomePage extends StatelessWidget {
                     )
                   ]),
                   subtitle: Container(
+                    width: MediaQuery.of(context).size.width
                       decoration: BoxDecoration(
                         color: Colors.blue,
                       ),
-                      child: Align(alignment: Alignment.center, child: Text("Stock 1"))),
+                      child: Align(
+                        alignment: Alignment.center, 
+                        child: Text("Stock 1")
+                        )
+                      ),
                   trailing: Icon(
                     Icons.delete_forever_rounded,
                   ),

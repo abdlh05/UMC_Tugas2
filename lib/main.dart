@@ -70,12 +70,12 @@ class MyHomePage extends StatelessWidget {
                     subtitle: Container(
                       padding: EdgeInsets.only(top: 20),
                       decoration: BoxDecoration(
-                        color: Colors.blue,
-                        border: Border.all(
-                          color: Colors.transparent,
-                          width: 0,
-                        ),
-                      ),
+                          color: Colors.blue,
+                          border: Border.all(
+                            color: Colors.transparent,
+                            width: 0,
+                          ),
+                          borderRadius: BorderRadius.all(Radius.circular(20))),
                       child: Align(
                         alignment: Alignment.center,
                         child: Text('Hello, Flutter!', style: TextStyle(fontSize: 30, color: Colors.white)),

@@ -68,6 +68,7 @@ class MyHomePage extends StatelessWidget {
                     )
                   ]),
                   subtitle: Container(
+                    width: MediaQuery.of(context).size.width * 0.5,
                     margin: const EdgeInsets.only(top: 10),
                     decoration: BoxDecoration(
                         color: Colors.blue,

@@ -54,7 +54,7 @@ class MyHomePage extends StatelessWidget {
                     leading: FittedBox(
                         fit: BoxFit.fill,
                         child: ClipRRect(
-                          borderRadius: BorderRadius.circular(5.0),
+                          borderRadius: BorderRadius.circular(10.0),
                           child: Image.network("https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bmlrZSUyMHNob2V8ZW58MHx8MHx8&w=1000&q=80", width: 100.0, height: 110.0),
                         )),
                     title: Column(children: [
